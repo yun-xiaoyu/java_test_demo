@@ -15,7 +15,6 @@ public class CustomTcpTask implements Runnable{
 
                 tcpConnectionPoolManager.connectionPool.getConnection(serverSocket.accept());
             }
-
         }
         catch (IOException e) {
 

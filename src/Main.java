@@ -24,7 +24,7 @@ public class Main {
 
         //execute tcp task listen port get tcp connection
         threadPool.execute(customTcpTask);
-        //itr tcp connections search post arrive serves
+        //itr tcp connections search post arrive message
         threadPool.execute(customPortTask);
     }
 }
